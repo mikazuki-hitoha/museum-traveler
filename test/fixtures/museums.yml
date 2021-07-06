@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  holiday: MyString
+  opening_time: 2021-07-06 12:39:31
+  closing_time: 2021-07-06 12:39:31
+  address: MyString
+  phone_number: MyString
+  image_url: MyText
+
+two:
+  name: MyString
+  holiday: MyString
+  opening_time: 2021-07-06 12:39:31
+  closing_time: 2021-07-06 12:39:31
+  address: MyString
+  phone_number: MyString
+  image_url: MyText
