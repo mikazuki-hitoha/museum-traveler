@@ -1,0 +1,16 @@
+<div class="container">
+  <h1 class="text-center"><%= @museum.name %></h1>
+  <img width="640px" height="auto" class="mx-auto d-block" src="<%= @museum.image_url %>" />
+  <table class="table">
+    <tbody>
+      <tr>
+        <th scope="row">休館日</th>
+        <td><%= @museum.holiday %></td>
+      </tr>
+      <tr>
+        <th scope="row">開館時間</th>
+        <td><%= @museum.opening_time.strftime('%-H:%M') %></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -4,7 +4,7 @@
       <tr>
         <td width='200px'> <img width="150px" height="120px" src="<%= museum.image_url %>" /> </td>
         <td>
-          <h3><%= museum.name %></h3>
+          <h3><%= link_to museum.name, museum_path(museum.id) %></h3>
           <p>休館日：<%= museum.holiday %></p>
           <p>開館時間：<%= museum.opening_time.strftime('%-H:%M') %></p>
         </td>
