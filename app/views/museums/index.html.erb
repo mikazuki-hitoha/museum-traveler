@@ -2,7 +2,7 @@
   <tbody>
     <% @museums.each do |museum| %>
       <tr>
-        <td width='200px'> <img width="150px" height="120px" src="<%= museum.image_url %>" /> </td>
+        <td width='200px'> <img width="180px" height="auto" src="<%= museum.image_url %>" /> </td>
         <td>
           <h3><%= link_to museum.name, museum_path(museum.id) %></h3>
           <p>休館日：<%= museum.holiday %></p>
