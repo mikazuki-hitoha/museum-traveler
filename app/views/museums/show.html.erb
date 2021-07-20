@@ -23,6 +23,10 @@
         <th scope="row"><h4>電話番号</h4></th>
         <td><%= @museum.phone_number %></td>
       </tr>
+      <tr>
+        <th scope="row"><h4>ホームページ</h4></th>
+        <td><%= link_to @museum.web_page, @museum.web_page %></td>
+      </tr>
     </tbody>
   </table>
 </div>

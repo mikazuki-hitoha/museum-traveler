@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2021_07_06_123931) do
     t.string "address", null: false
     t.string "phone_number"
     t.text "image_url"
+    t.text "web_page"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
