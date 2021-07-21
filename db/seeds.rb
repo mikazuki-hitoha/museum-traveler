@@ -1,5 +1,5 @@
 [
-  {
+   {
     id: 1,
     name: '八戸市博物館',
     holiday: '月曜日',
@@ -8,7 +8,7 @@
     address: '〒039-1166 青森県八戸市根城東構３５−１',
     phone_number: '0178-44-8111',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipNwAQ76Rv5DuhUDVVvhdqqLiRw23niyR3J-vXkR=w426-h240-k-no',
-    web_page: ''
+    web_page: 'http://www.hachinohe.ed.jp/haku/'
   },
   {
     id: 2,
@@ -19,7 +19,7 @@
     address: '〒030-0943 青森県青森市幸畑阿部野１６３−４',
     phone_number: '017-728-7063',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipOFMjz5FB4B7seQTZggvSuzzX0J6zqyqLqBWRsp=w408-h306-k-no',
-    web_page: ''
+    web_page: 'http://www.moyahills.jp/koubataboen/index.html'
   },
   {
     id: 3,
@@ -30,7 +30,7 @@
     address: '〒030-0111 青森県青森市荒川藤戸１１９−７ 青森県立図書館 2F',
     phone_number: '017-739-2575',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipOV8JC4bDbTLhsjJ9Q3BZisLwN7xCE5ARJn-SfQ=w408-h306-k-no',
-    web_page: ''
+    web_page: 'http://www.plib.pref.aomori.lg.jp/viewer/info.html?id=30'
   },
   {
     id: 4,
@@ -41,7 +41,7 @@
     address: '〒038-0012 青森県青森市柳川２丁目４−３７',
     phone_number: '017-766-7800',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipMSJmlxVfBvcyrhk1C_cGsfeGd61sUQCRxzyhAB=w408-h306-k-no',
-    web_page: ''
+    web_page: 'http://www.aomori-shi.shinrinhakubutsukan.jp/'
   },
   {
     id: 5,
@@ -52,7 +52,7 @@
     address: '〒038-0002 青森県青森市沖館２丁目２−１',
     phone_number: '017-763-5519',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipPrK92V7ej12hgM5iSlsImO0OS34ljF5kBGOEYO=w408-h272-k-no',
-    web_page: ''
+    web_page: 'http://www.kitanomahoroba.jp/'
   },
   {
     id: 6,
@@ -63,7 +63,7 @@
     address: '〒030-0802 青森県青森市本町２丁目８−１４',
     phone_number: '017-777-1585',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipNuutMpy3IGohvJkXFr-DYq0Ner__qrBlMHVxSK=w408-h306-k-no',
-    web_page: ''
+    web_page: 'https://www.kyodokan.com/'
   },
   {
     id: 7,
@@ -74,7 +74,7 @@
     address: '〒038-1311 青森県青森市浪岡大字浪岡岡田４３',
     phone_number: '0172-62-1020',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipOTBCH57Uoim1EqUg9UmL1j3tcLeBfSr8LgJYGj=w408-h272-k-no',
-    web_page: ''
+    web_page: 'http://www.city.aomori.aomori.jp/n-kyouiku/bunka-sports-kanko/bunka/bunka-geijutsu/bunka-shisetsu/05.html'
   },
   {
     id: 8,
@@ -85,7 +85,7 @@
     address: '〒038-3672 青森県北津軽郡板柳町灰沼岩井７０',
     phone_number: '0172-72-0330',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipMgAfIez4vk6Y6BVzjRjDFZsvFovyffUqaeN9p3=w426-h240-k-no',
-    web_page: ''
+    web_page: 'https://www.town.itayanagi.aomori.jp/tourism/kyoudo/'
   },
   {
     id: 9,
@@ -96,7 +96,7 @@
     address: '〒037-0305 青森県北津軽郡中泊町中里紅葉坂２１０',
     phone_number: '0173-69-1111',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipMtVNQrS1AJjABn3sHiU2ZEDhNDB4e4_B6pXEQ0=w408-h306-k-no',
-    web_page: ''
+    web_page: 'http://www2.town.nakadomari.aomori.jp/hakubutsukan/'
   },
   {
     id: 10,
@@ -107,7 +107,7 @@
     address: '〒038-3138 青森県つがる市木造若緑５９−１',
     phone_number: '0173-42-6490',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipPTrP7laIfayxIdHWeH2iCVvgi-nM59Mk4CJlSz=w426-h240-k-no',
-    web_page: ''
+    web_page: 'https://www.city.tsugaru.aomori.jp/life/shisetsu/shiryokan/2826.html'
   },
   {
     id: 11,
@@ -118,7 +118,7 @@
     address: '〒036-1344 青森県弘前市高岡獅子沢１２８−１１２',
     phone_number: '0172-83-3110',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipOo4w3dh_vZ9SJ9bR7rT0hnNqo4fQbFf37e7fFx=w426-h240-k-no',
-    web_page: ''
+    web_page: 'http://www.city.hirosaki.aomori.jp/takaoka-rekishikan/index.html'
   },
   {
     id: 12,
@@ -129,18 +129,18 @@
     address: '〒036-8356 青森県弘前市下白銀町１−６ 弘前公園内',
     phone_number: '0172-35-0700',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipNlxNtxHqcrwkLtkOAMMm0_BBmrEQNGTtmGAVzD=w426-h240-k-no',
-    web_page: ''
+    web_page: 'http://www.city.hirosaki.aomori.jp/hakubutsukan/index.html'
   },
   {
     id: 13,
     name: '弘前城史料館',
-    holiday: 'なし',
+    holiday: '11月24日～3月31日',
     opening_time: '9:00',
     closing_time: '17:00',
     address: '〒036-8356 青森県弘前市下白銀町１ 弘前城天守内',
     phone_number: '0172-33-8739',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipPjd2WjW5ZiFAKMguWBItOExeJcWD3f397aqGFq=w408-h306-k-no',
-    web_page: ''
+    web_page: 'https://bunka.nii.ac.jp/museums/detail/11800'
   },
   {
     id: 14,
