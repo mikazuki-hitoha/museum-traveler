@@ -153,6 +153,28 @@
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipOb88sSwkR-nkwvxZO7gMIaO_yzZAzUmjzJ2S2Q=w408-h270-k-no',
     web_page: 'https://www.kotsugaru.com/story/inakadate/story01.html'
   },
+  {
+    id: 15,
+    name: '平川市郷土資料館',
+    holiday: '月曜日・12月29日～1月3日',
+    opening_time: '9:00',
+    closing_time: '17:00',
+    address: '〒036-0102 青森県平川市光城２丁目３０−１ 文化センタ 2F',
+    phone_number: '0172-44-1221',
+    image_url: 'https://imgcache.its-mo.com/contents/KNK_ZPOI/00000000000000043719/000043719-1/000043719-1_m.jpg',
+    web_page: 'https://www.city.hirakawa.lg.jp/bunka/shiseki/kyoudoshiryoukan.html'
+  },
+  {
+    id: 16,
+    name: '弘前大学史料館',
+    holiday: '日曜・祝日・休日・盆期間・年末年始 (12月28日～ 1月4日)',
+    opening_time: '10:00',
+    closing_time: '16:00',
+    address: '〒036-8560 青森県弘前市文京町１ 弘前大学文京町地区キャンパス内',
+    phone_number: '0172-39-3432',
+    image_url: 'https://lh5.googleusercontent.com/p/AF1QipPhh2Si_kd4u6rC4Rhn1zVcvRFdqtMhPTz1lliT=w408-h248-k-no',
+    web_page: 'http://shiryokan.hirosaki-u.ac.jp/'
+  },
 ].each do |data|
   museum = Museum.find_or_initialize_by(id: data[:id])
   museum.name = data[:name]
