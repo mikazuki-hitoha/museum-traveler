@@ -33,6 +33,34 @@
 
 <form>
 コメント：<br>
-<textarea name="comment" rows="4" cols="40">入力欄</textarea><br>
+<textarea name="comment" rows="4" cols="40" placeholder="入力欄"></textarea><br>
 </form>
 <input type="submit" value="送信"><input type="reset" value="キャンセル">
+
+
+<div id="map" style='height: 500px; width: 500px;'></div>
+
+<% google_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDxEXUQVgdC2JH5CfGH6nvCv5D3g9Wrqss&callback=initMap".html_safe %>
+<script async src="<%= google_api %>"></script>
+
+<script>
+
+  let map;
+
+  function initMap() {
+    geocoder = new google.maps.Geocoder()
+
+    // マップを作成
+    map = new google.maps.Map(document.getElementById('map'), {
+      // マップの中心に表示する場所の緯度経度を指定
+      center: { lat: 40.7828, lng:-73.9653 },
+      zoom: 12,
+    });
+
+    // マーカーを立てる場所の緯度経度を指定
+    marker = new google.maps.Marker({
+      position: { lat: 40.7828, lng:-73.9653 },
+      map: map
+    });
+  }
+</script>
