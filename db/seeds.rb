@@ -8,7 +8,9 @@
     address: '〒039-1166 青森県八戸市根城東構３５−１',
     phone_number: '0178-44-8111',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipNwAQ76Rv5DuhUDVVvhdqqLiRw23niyR3J-vXkR=w426-h240-k-no',
-    web_page: 'http://www.hachinohe.ed.jp/haku/'
+    web_page: 'http://www.hachinohe.ed.jp/haku/',
+    latitude: 40.508738067104076, 
+    longitude: 141.46432689526105
   },
   {
     id: 2,
@@ -19,7 +21,9 @@
     address: '〒030-0943 青森県青森市幸畑阿部野１６３−４',
     phone_number: '017-728-7063',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipOFMjz5FB4B7seQTZggvSuzzX0J6zqyqLqBWRsp=w408-h306-k-no',
-    web_page: 'http://www.moyahills.jp/koubataboen/index.html'
+    web_page: 'http://www.moyahills.jp/koubataboen/index.html',
+    latitude: 40.784762673496026,
+    longitude: 140.78981608547224
   },
   {
     id: 3,
@@ -30,7 +34,9 @@
     address: '〒030-0111 青森県青森市荒川藤戸１１９−７ 青森県立図書館 2F',
     phone_number: '017-739-2575',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipOV8JC4bDbTLhsjJ9Q3BZisLwN7xCE5ARJn-SfQ=w408-h306-k-no',
-    web_page: 'http://www.plib.pref.aomori.lg.jp/viewer/info.html?id=30'
+    web_page: 'http://www.plib.pref.aomori.lg.jp/viewer/info.html?id=30',
+    latitude: 40.79536693533592, 
+    longitude: 140.7391076812164
   },
   {
     id: 4,
@@ -41,7 +47,9 @@
     address: '〒038-0012 青森県青森市柳川２丁目４−３７',
     phone_number: '017-766-7800',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipMSJmlxVfBvcyrhk1C_cGsfeGd61sUQCRxzyhAB=w408-h306-k-no',
-    web_page: 'http://www.aomori-shi.shinrinhakubutsukan.jp/'
+    web_page: 'http://www.aomori-shi.shinrinhakubutsukan.jp/',
+    latitude: 40.831670088974256, 
+    longitude: 140.72569502410798
   },
   {
     id: 5,
@@ -52,7 +60,9 @@
     address: '〒038-0002 青森県青森市沖館２丁目２−１',
     phone_number: '017-763-5519',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipPrK92V7ej12hgM5iSlsImO0OS34ljF5kBGOEYO=w408-h272-k-no',
-    web_page: 'http://www.kitanomahoroba.jp/'
+    web_page: 'http://www.kitanomahoroba.jp/',
+    latitude: 40.83750075810805, 
+    longitude: 140.725180581779 
   },
   {
     id: 6,
@@ -63,7 +73,9 @@
     address: '〒030-0802 青森県青森市本町２丁目８−１４',
     phone_number: '017-777-1585',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipNuutMpy3IGohvJkXFr-DYq0Ner__qrBlMHVxSK=w408-h306-k-no',
-    web_page: 'https://www.kyodokan.com/'
+    web_page: 'https://www.kyodokan.com/',
+    latitude: 40.82750815569421, 
+    longitude: 140.74880577013224
   },
   {
     id: 7,
@@ -74,7 +86,9 @@
     address: '〒038-1311 青森県青森市浪岡大字浪岡岡田４３',
     phone_number: '0172-62-1020',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipOTBCH57Uoim1EqUg9UmL1j3tcLeBfSr8LgJYGj=w408-h272-k-no',
-    web_page: 'http://www.city.aomori.aomori.jp/n-kyouiku/bunka-sports-kanko/bunka/bunka-geijutsu/bunka-shisetsu/05.html'
+    web_page: 'http://www.city.aomori.aomori.jp/n-kyouiku/bunka-sports-kanko/bunka/bunka-geijutsu/bunka-shisetsu/05.html',
+    latitude: 40.714259865296526, 
+    longitude: 140.59728359896366
   },
   {
     id: 8,
@@ -85,7 +99,9 @@
     address: '〒038-3672 青森県北津軽郡板柳町灰沼岩井７０',
     phone_number: '0172-72-0330',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipMgAfIez4vk6Y6BVzjRjDFZsvFovyffUqaeN9p3=w426-h240-k-no',
-    web_page: 'https://www.town.itayanagi.aomori.jp/tourism/kyoudo/'
+    web_page: 'https://www.town.itayanagi.aomori.jp/tourism/kyoudo/',
+    latitude: 40.702397122520566, 
+    longitude: 140.45578833944484
   },
   {
     id: 9,
@@ -96,7 +112,9 @@
     address: '〒037-0305 青森県北津軽郡中泊町中里紅葉坂２１０',
     phone_number: '0173-69-1111',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipMtVNQrS1AJjABn3sHiU2ZEDhNDB4e4_B6pXEQ0=w408-h306-k-no',
-    web_page: 'http://www2.town.nakadomari.aomori.jp/hakubutsukan/'
+    web_page: 'http://www2.town.nakadomari.aomori.jp/hakubutsukan/',
+    latitude: 40.96112882588438, 
+    longitude: 140.43296948178346
   },
   {
     id: 10,
@@ -107,7 +125,9 @@
     address: '〒038-3138 青森県つがる市木造若緑５９−１',
     phone_number: '0173-42-6490',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipPTrP7laIfayxIdHWeH2iCVvgi-nM59Mk4CJlSz=w426-h240-k-no',
-    web_page: 'https://www.city.tsugaru.aomori.jp/life/shisetsu/shiryokan/2826.html'
+    web_page: 'https://www.city.tsugaru.aomori.jp/life/shisetsu/shiryokan/2826.html',
+    latitude: 40.80942780100314, 
+    longitude: 140.38078979342436 
   },
   {
     id: 11,
@@ -118,7 +138,9 @@
     address: '〒036-1344 青森県弘前市高岡獅子沢１２８−１１２',
     phone_number: '0172-83-3110',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipOo4w3dh_vZ9SJ9bR7rT0hnNqo4fQbFf37e7fFx=w426-h240-k-no',
-    web_page: 'http://www.city.hirosaki.aomori.jp/takaoka-rekishikan/index.html'
+    web_page: 'http://www.city.hirosaki.aomori.jp/takaoka-rekishikan/index.html',
+    latitude: 40.62271240623253,  
+    longitude: 140.35540945293585
   },
   {
     id: 12,
@@ -129,7 +151,9 @@
     address: '〒036-8356 青森県弘前市下白銀町１−６ 弘前公園内',
     phone_number: '0172-35-0700',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipNlxNtxHqcrwkLtkOAMMm0_BBmrEQNGTtmGAVzD=w426-h240-k-no',
-    web_page: 'http://www.city.hirosaki.aomori.jp/hakubutsukan/index.html'
+    web_page: 'http://www.city.hirosaki.aomori.jp/hakubutsukan/index.html',
+    latitude: 40.60550766985923, 
+    longitude: 140.46276872594737 
   },
   {
     id: 13,
@@ -140,7 +164,9 @@
     address: '〒036-8356 青森県弘前市下白銀町１ 弘前城天守内',
     phone_number: '0172-33-8739',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipPjd2WjW5ZiFAKMguWBItOExeJcWD3f397aqGFq=w408-h306-k-no',
-    web_page: 'https://bunka.nii.ac.jp/museums/detail/11800'
+    web_page: 'https://bunka.nii.ac.jp/museums/detail/11800',
+    latitude: 40.60798280795158,  
+    longitude: 140.4636578206303
   },
   {
     id: 14,
@@ -151,7 +177,9 @@
     address: '〒038-1111 青森県南津軽郡田舎館村高樋大曲６３',
     phone_number: '0172-43-8555',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipOb88sSwkR-nkwvxZO7gMIaO_yzZAzUmjzJ2S2Q=w408-h270-k-no',
-    web_page: 'https://www.kotsugaru.com/story/inakadate/story01.html'
+    web_page: 'https://www.kotsugaru.com/story/inakadate/story01.html',
+    latitude: 40.63353344461831,  
+    longitude: 140.577564697113
   },
   {
     id: 15,
@@ -162,7 +190,9 @@
     address: '〒036-0102 青森県平川市光城２丁目３０−１ 文化センタ 2F',
     phone_number: '0172-44-1221',
     image_url: 'https://imgcache.its-mo.com/contents/KNK_ZPOI/00000000000000043719/000043719-1/000043719-1_m.jpg',
-    web_page: 'https://www.city.hirakawa.lg.jp/bunka/shiseki/kyoudoshiryoukan.html'
+    web_page: 'https://www.city.hirakawa.lg.jp/bunka/shiseki/kyoudoshiryoukan.html',
+    latitude: 40.590487171952425,  
+    longitude: 140.5627812529345
   },
   {
     id: 16,
@@ -173,7 +203,9 @@
     address: '〒036-8560 青森県弘前市文京町１ 弘前大学文京町地区キャンパス内',
     phone_number: '0172-39-3432',
     image_url: 'https://lh5.googleusercontent.com/p/AF1QipPhh2Si_kd4u6rC4Rhn1zVcvRFdqtMhPTz1lliT=w408-h248-k-no',
-    web_page: 'http://shiryokan.hirosaki-u.ac.jp/'
+    web_page: 'http://shiryokan.hirosaki-u.ac.jp/',
+    latitude: 40.58933905941034,  
+    longitude: 140.4717507891601
   },
 ].each do |data|
   museum = Museum.find_or_initialize_by(id: data[:id])
@@ -185,5 +217,7 @@
   museum.phone_number = data[:phone_number]
   museum.image_url = data[:image_url]
   museum.web_page = data[:web_page]
+  museum.latitude = data[:latitude]
+  museum.longitude = data[:longitude]
   museum.save!
 end
