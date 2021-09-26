@@ -207,6 +207,32 @@
     latitude: 40.58933905941034,  
     longitude: 140.4717507891601
   },
+  {
+  id: 17,
+  name: '弘前市立郷土文学館',
+  holiday: '12月29日～1月3日・1月4日～1月11日',
+  opening_time: '9:00',
+  closing_time: '17:00',
+  address: '〒036-8356 青森県弘前市下白銀町２−１ 追手門広場内',
+  phone_number: '0172-37-5505',
+  image_url: 'https://lh5.googleusercontent.com/p/AF1QipPyYxBc-cZMSy_ISWXTxfimWD3g-Yt2cfxCUMGS=w408-h306-k-no',
+  web_page: 'http://www.city.hirosaki.aomori.jp/bungakukan/',
+  latitude: 40.6028108657809,
+  longitude: 140.465119939441
+},
+{
+  id: 18,
+  name: '弘前市立山車展示館',
+  holiday: '12月29日～1月3日',
+  opening_time: '9:00',
+  closing_time: '18:00',
+  address: '〒036-8356 青森県弘前市下白銀町２−１ 追手門広場内',
+  phone_number: '0172-37-5501',
+  image_url: 'https://lh5.googleusercontent.com/p/AF1QipMJdWMi8r97SNujOXRksf7eLNVRkxAOnlJzrB6z=w408-h306-k-no',
+  web_page: 'http://www.city.hirosaki.aomori.jp/gaiyou/shisetsu/2015-0223-1129-41.html',
+  latitude: 40.6029317263457,
+  longitude: 140.466002699178
+},
 ].each do |data|
   museum = Museum.find_or_initialize_by(id: data[:id])
   museum.name = data[:name]
