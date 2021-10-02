@@ -59,6 +59,10 @@
         position: { lat: <%= @museum.latitude %>, lng: <%= @museum.longitude %> },
         map: map
       });
+      google.maps.event.addListener(marker, 'click', function(event) {
+        alert('click!');
+        console.log(event);
+      });
     }
   
     initMap();

@@ -1,7 +1,8 @@
+<div id="map" style='height: 500px; width: 500px;'></div>
 <table class="table">
   <tbody>
     <% @museums.each do |museum| %>
-      <tr>
+      <tr id="<%= museum.latitude %>_<%= museum.longitude %>">
         <td width='200px'> <img width="150px" height="120px" style="object-fit: contain;" src="<%= museum.image_url %>" /> </td>
         <td>
           <h3><%= link_to museum.name, museum_path(museum.id) %></h3>
@@ -12,7 +13,6 @@
     <% end %>
   </tbody>
 </table>
-<div id="map" style='height: 500px; width: 500px;'></div>
 
 
 
@@ -32,6 +32,17 @@
           map: map,
         });
       });
+      
+      for (var i = 0; i < markers.length; i++) {
+        let marker = markers[i];
+        google.maps.event.addListener(marker, 'click', function(event) {
+          let lat = marker.position.lat();
+          let lng = marker.position.lng();
+          let tr = document.getElementById(lat + "_" + lng)
+          window.scroll(0, tr.getBoundingClientRect().top)
+        });
+      }
+
   }
   var locationsJson = '<%= raw @locations_json %>';
   var locations = JSON.parse(locationsJson);
