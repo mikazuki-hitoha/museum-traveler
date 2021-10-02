@@ -40,27 +40,27 @@
 
 <div id="map" style='height: 500px; width: 500px;'></div>
 
-<% google_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDxEXUQVgdC2JH5CfGH6nvCv5D3g9Wrqss&callback=initMap".html_safe %>
-<script async src="<%= google_api %>"></script>
-
 <script>
-
-  let map;
-
-  function initMap() {
-    geocoder = new google.maps.Geocoder()
-
-    // マップを作成
-    map = new google.maps.Map(document.getElementById('map'), {
-      // マップの中心に表示する場所の緯度経度を指定
-      center: { lat: <%= @museum.latitude %>, lng: <%= @museum.longitude %> },
-      zoom: 12,
-    });
-
-    // マーカーを立てる場所の緯度経度を指定
-    marker = new google.maps.Marker({
-      position: { lat: <%= @museum.latitude %>, lng: <%= @museum.longitude %> },
-      map: map
-    });
-  }
+  document.addEventListener("turbolinks:load", function(){
+    let map;
+  
+    function initMap() {
+      geocoder = new google.maps.Geocoder()
+  
+      // マップを作成
+      map = new google.maps.Map(document.getElementById('map'), {
+        // マップの中心に表示する場所の緯度経度を指定
+        center: { lat: <%= @museum.latitude %>, lng: <%= @museum.longitude %> },
+        zoom: 12,
+      });
+  
+      // マーカーを立てる場所の緯度経度を指定
+      marker = new google.maps.Marker({
+        position: { lat: <%= @museum.latitude %>, lng: <%= @museum.longitude %> },
+        map: map
+      });
+    }
+  
+    initMap();
+  })
 </script>

@@ -14,27 +14,29 @@
 </table>
 <div id="map" style='height: 500px; width: 500px;'></div>
 
-<% google_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDxEXUQVgdC2JH5CfGH6nvCv5D3g9Wrqss&callback=initMap".html_safe %>
-<script async src="<%= google_api %>"></script>
+
 
 <script>
-
-  let map;
-
-  function initMap() {
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 10,
-        center: { lat: <%= @museums.last.latitude %>, lng: <%= @museums.last.longitude %> }
-    });
-
-    var markers = locations.map(function(location) {
-      return new google.maps.Marker({
-        position: location,
-        map: map,
+  document.addEventListener("turbolinks:load", function(){
+    let map;
+  
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: { lat: <%= @museums.last.latitude %>, lng: <%= @museums.last.longitude %> }
       });
-    });
-}
-var locationsJson = '<%= raw @locations_json %>';
-var locations = JSON.parse(locationsJson);
+  
+      var markers = locations.map(function(location) {
+        return new google.maps.Marker({
+          position: location,
+          map: map,
+        });
+      });
+  }
+  var locationsJson = '<%= raw @locations_json %>';
+  var locations = JSON.parse(locationsJson);
+
+  initMap();
+})
 </script>
 

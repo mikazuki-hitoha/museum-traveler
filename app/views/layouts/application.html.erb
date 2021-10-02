@@ -21,5 +21,7 @@
     <% end %>
       
     <%= yield %>
+    <% google_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDxEXUQVgdC2JH5CfGH6nvCv5D3g9Wrqss".html_safe %>
+    <script src="<%= google_api %>"></script>
   </body>
 </html>
