@@ -28,7 +28,8 @@
   
       var markers = locations.map(function(location) {
         return new google.maps.Marker({
-          position: location,
+          position: { lat: location.lat, lng: location.lng },
+          title: location.name,
           map: map,
         });
       });
