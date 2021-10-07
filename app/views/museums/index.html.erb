@@ -2,7 +2,7 @@
 <table class="table">
   <tbody>
     <% @museums.each do |museum| %>
-      <tr id="<%= museum.latitude %>_<%= museum.longitude %>">
+      <tr id="<%= museum.name %>">
         <td width='200px'> <img width="150px" height="120px" style="object-fit: contain;" src="<%= museum.image_url %>" /> </td>
         <td>
           <h3><%= link_to museum.name, museum_path(museum.id) %></h3>
@@ -39,8 +39,10 @@
         google.maps.event.addListener(marker, 'click', function(event) {
           let lat = marker.position.lat();
           let lng = marker.position.lng();
-          let tr = document.getElementById(lat + "_" + lng)
-          window.scroll(0, tr.getBoundingClientRect().top)
+          let name = marker.title;
+
+          let tr = document.getElementById(name);
+          window.scroll(0, tr.getBoundingClientRect().top);
         });
       }
 
