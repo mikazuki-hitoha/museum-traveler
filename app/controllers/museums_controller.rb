@@ -6,5 +6,7 @@ class MuseumsController < ApplicationController
   
   def show
     @museum = Museum.find(params[:id])
+    @comment = Comment.new
+    @comments = @museum.comments.order(id: :desc)
   end  
 end

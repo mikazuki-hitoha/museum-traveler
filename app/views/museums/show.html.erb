@@ -17,7 +17,10 @@
       </tr>
       <tr>
         <th scope="row"><h4>住所</h4></th>
-        <td><%= @museum.address %></td>
+        <td>
+          <%= @museum.address %>
+          <div id="map" style='height: 500px; width: 500px;'></div>
+        </td>
       </tr>
       <tr>
         <th scope="row"><h4>電話番号</h4></th>
@@ -31,13 +34,24 @@
   </table>
 </div>
 
-<form>
+<%= form_with model: @comment, url: museum_comments_path(@museum) do |f| %>
 コメント：<br>
-<textarea name="comment" rows="4" cols="40" placeholder="入力欄"></textarea><br>
-</form>
-<input type="submit" value="送信"><input type="reset" value="キャンセル">
-
-
+  <%= f.text_area :body %>
+  <%= f.submit %>
+<% end %>
+<div class=""></div>
+<body>
+    <div class="mx-1">
+      <div class="row">
+        <div class="col-8"></div>
+        <div class="col-4">
+          <% @comments.each do |comment| %>
+            <p class="border m-0 p-3"><%= raw(h(comment.body).gsub(/\R/, "<br>")) %></p>
+          <% end %>
+          
+        </div>
+      </div>
+    </div>
 <div id="map" style='height: 500px; width: 500px;'></div>
 
 <script>
