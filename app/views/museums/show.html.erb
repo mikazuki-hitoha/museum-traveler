@@ -5,30 +5,32 @@
     <tbody>
       <tr>
         <th scope="row"><h4>休館日</h4></th>
-        <td><%= @museum.holiday %></td>
+        <td><h2><%= @museum.holiday %></h2></td>
       </tr>
       <tr>
         <th scope="row"><h4>開館時間</h4></th>
-        <td><%= @museum.opening_time.strftime('%-H:%M') %></td>
+        <td><h2><%= @museum.opening_time.strftime('%-H:%M') %></h2></td>
       </tr>
       <tr>
         <th scope="row"><h4>閉館時間</h4></th>
-        <td><%= @museum.closing_time.strftime('%-H:%M') %></td>
+        <td><h2><%= @museum.closing_time.strftime('%-H:%M') %></h2></td>
       </tr>
       <tr>
         <th scope="row"><h4>住所</h4></th>
         <td>
+        <h2>  
           <%= @museum.address %>
-          <div id="map" style='height: 500px; width: 500px;'></div>
+        <h2>  
+          <div id="map" style='height: 350px; width: 350px;'></div>
         </td>
       </tr>
       <tr>
         <th scope="row"><h4>電話番号</h4></th>
-        <td><%= @museum.phone_number %></td>
+        <td><h3><%= @museum.phone_number %></h3></td>
       </tr>
       <tr>
         <th scope="row"><h4>ホームページ</h4></th>
-        <td><%= link_to @museum.web_page, @museum.web_page %></td>
+        <td><h4><%= link_to @museum.web_page, @museum.web_page %></h4></td>
       </tr>
     </tbody>
   </table>
