@@ -36,7 +36,7 @@
   </table>
 </div>
 
-<%= form_with model: @comment, url: museum_comments_path(@museum) do |f| %>
+<%= form_with model: @comment, url: museum_comments_path(@museum), remote: true do |f| %>
 コメント：<br>
   <%= f.text_area :body %>
   <%= f.submit %>
@@ -46,11 +46,8 @@
     <div class="mx-1">
       <div class="row">
         <div class="col-8"></div>
-        <div class="col-4">
-          <% @comments.each do |comment| %>
-            <p class="border m-0 p-3"><%= raw(h(comment.body).gsub(/\R/, "<br>")) %></p>
-          <% end %>
-          
+        <div id="comments" class="col-4">
+          <%= render partial: "comments", locals: { comments: @comments } %>
         </div>
       </div>
     </div>

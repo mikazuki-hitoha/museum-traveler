@@ -4,7 +4,7 @@ class CommentsController < ApplicationController
     comment = museum.comments.new(comment_params)
     comment.user = current_user
     comment.save!
-    redirect_to museum_path(museum)
+    @comments = museum.comments.order(id: :desc)
   end
   
   private

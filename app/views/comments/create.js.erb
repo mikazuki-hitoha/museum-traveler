@@ -1,0 +1,2 @@
+document.getElementById("comment_body").value = '';
+document.getElementById("comments").innerHTML = "<%= j(render partial: 'museums/comments', locals: { comments: @comments }) %>";
