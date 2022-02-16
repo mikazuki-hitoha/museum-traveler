@@ -233,6 +233,45 @@
   latitude: 40.6029317263457,
   longitude: 140.466002699178
 },
+  {
+  id: 19,
+  name: 'つがる市森田歴史民俗資料館',
+  holiday: '月・火・木・金曜日　　12月28日～1月7日',
+  opening_time: '9:00',
+  closing_time: '16:00',
+  address: '〒038-2816 青森県つがる市森田町森田月見野３４０−２',
+  phone_number: '0173-26-2201',
+  image_url: 'https://www.aptinet.jp/OR_0_640_00002610_6.jpg',
+  web_page: 'https://www.aptinet.jp/Detail_display_00002610.html',
+  latitude: '40.7832446519746'
+  longitude: '140.341721842208'
+  },
+  {
+  id: 20,
+  name: '十和田市現代美術館',
+  holiday: '月曜日（月曜日が祝日の場合はその翌日）　年末年始',
+  opening_time: '9:00',
+  closing_time: '17:00',
+  address: '〒034-0082 青森県十和田市西二番町１０−９',
+  phone_number: '0176-20-1127',
+  image_url: 'https://lh5.googleusercontent.com/p/AF1QipNClIX9Y2OzWvqxqh4c6Q9fw_0PlgffrTq8fkWi=w426-h240-k-no',
+  web_page: 'http://towadaartcenter.com/',
+  latitude: '40.6347755701951'
+  longitude: '141.206877118146'
+  },
+  {
+  id: 21,
+  name: '青森県立三沢航空科学館',
+  holiday: '月曜日（祝日の場合は翌日）　12月30日～翌年1月1日',
+  opening_time: '9:00',
+  closing_time: '17:00',
+  address: '〒033-0022 青森県三沢市三沢北山１５８',
+  phone_number: '0176-50-7777',
+  image_url: 'https://lh5.googleusercontent.com/p/AF1QipN3GeeatIBhLQIrbeVYxZF-eM0vfyRASLmFoVwu=w408-h306-k-no',
+  web_page: 'https://www.kokukagaku.jp/',
+  latitude: '40.712525803936'
+  longitude: '141.390371097733'
+},
 ].each do |data|
   museum = Museum.find_or_initialize_by(id: data[:id])
   museum.name = data[:name]
